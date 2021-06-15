@@ -4,6 +4,9 @@ description: "Creates thumbnails from a folder."
 runs:
   using: "docker"
   image: "Dockerfile"
+branding:
+  icon: "camera"
+  color: "yellow"
 inputs:
   email:
     description: The committer's email address
